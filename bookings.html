@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>La Mirage | Booking</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/appimages/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/appimages/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/appimages/favicon-16x16.png">
+	<link rel="manifest" href="webmanifest.json">
+	<link rel="mask-icon" href="img/appimages/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="img/appimages/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="img/appimages/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<header>
+	
+	<div class="container">
+		<div id="company">
+			<a href="index.html">
+			<img src="./img/lamirage.png" alt="La Mirage">
+			</a>
+			<h1><span class="highlight">La</span> Mirage</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="branches.html">Branches</a></li>
+				<li><a href="adventures.html">Adventures</a></li>
+				<li><div class="dropdown">
+    			<button class="dropbtn"><a href="restaurants.html">Restuarants</a></button>
+    			<div class="dropdown-content">
+      				<a href="Birthday.html">Event 1</a>
+      				<a href="Dayout.html">Event 2</a>
+    			</div>
+  				</div> </li>
+				<li class="currentpage"><a href="bookings.html">Bookings</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="booktext">
+		<h1>Bookings</h1>
+	</div>
+	
+</header>
+
+<section id="cover">
+	<div id="container">
+		<h1>Hotel La Mirage - Book Now!</h1>
+	</div>
+</section>
+
+<!-- Booking Form -->
+<section id="headings">
+	<div class="bookingform">
+  	<form action="">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Contact Number</label>
+    <input type="text" id="cNo" name="cNo" placeholder="Your Contact..">
+
+    <label for="country">Branch</label>
+    <select id="country" name="country">
+      <option value="">Kandy</option>
+      <option value="">Avissawella</option>
+      <option value="">Yala</option>
+    </select>
+
+    <label for="type">Booking Type</label>
+    <select id="type" name="type">
+      <option value="">Room</option>
+      <option value="">Adventure</option>
+      <option value="">Restaurant</option>
+    </select>
+  
+  	<label for="checkindate">CheckIn:</label>
+	<input type="date" id="chechin" name="checkIn">
+
+	<label for="Checkout">Checkout:</label>
+	<input type="date" id="Checkout" name="Checkout">
+	<BR>
+	<label for="No of Persons">No of Persons</label>
+    <input type="text" id="NoofPersons" name="NoofPersons" placeholder="Number of Pesons">
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</section>
+
+<footer>
+	<div class="footer-content">
+    	<h3>La Mirage Hotel</h3>
+    	<p>Your Dream Destinaion</p>
+
+    	<ul class="socials">
+   			<li><a href=”#”><img src="./img/fb.png"></a></li>
+   			<li><a href=”#”><img src="./img/insta.png"></a></li>
+   			<li><a href=”#”><img src="./img/twitter.png"></a></li>
+   			<li><a href=”#”><img src="./img/whatsapp.png"></a></li>
+		</ul>
+	</div>
+
+<div class=”footer-bottom”>
+   <p>copyright &copy;2023 <a href=”#”>NuskiAhamed</a>  </p>
+</div>
+</footer>
+</body>
+</html>
